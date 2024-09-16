@@ -10,6 +10,7 @@ function App() {
     <>
       <h1 className="text-3xl font-bold underline">
       Hello world!
+      Created a Sample react folder
     </h1>
     </>
   )
