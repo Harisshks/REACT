@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar  from './components/Navbar'
 const App = () => {
-  const Appname="Harkissh";;
+  const data=[
+    {appname:"Harkissh"},
+    {appname:"Harkissh KS"}
+  ];
   return (
     <>
     
@@ -77,7 +80,7 @@ const App = () => {
         </div>
       </div> */}
       <div className='h-full w-screen flex flex-col justify-center items-center'>
-        <Navbar appname={Appname}/>
+        <Navbar data={data}/>
       </div>
     <div className='h-screen w-screen flex justify-center items-center bg-[#3f3c3c]'>
       <div className='w-[30%] h-3/6 flex justify-center items-center bg-slate-100 rounded-md shadow-xl'>

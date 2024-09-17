@@ -1,9 +1,16 @@
-const Navbar =({appname})=>{
-    console.log(appname)
+const Navbar =({data})=>{
+    
     return(
-        <div className="w-full h-[3vh] grad-[#3f3c3c]-bg text-black flex justify-center items-center">
-            {appname}
+        <div className="w-full h-[3vh] bg-slate-500 flex justify-center items-center">
+         { data.map(datas => (
+            <span>
+                {datas.appname}
+            </span>
+          ))}     
         </div>
     )
 }
 export default Navbar;
+
+
+
