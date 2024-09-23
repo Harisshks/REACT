@@ -5,8 +5,7 @@ const Contact = () => {
   return (
     <>
     <Navbar/>
-    import React from 'react'
-    </>
+     </>
   )
 }
 export default Contact
