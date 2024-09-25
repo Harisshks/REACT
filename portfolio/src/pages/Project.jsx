@@ -46,7 +46,7 @@ const Project = () => {
         <div className='mt-20'>
           <Slider {...settings}>
             {data.map((g, index) => (
-              <div key={index} className='bg-white h-[400px] text-black rounded-xl transform hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.6)] transition-transform duration-300'>
+              <div key={index} className='bg-white h-[400px] text-black rounded-xl transform hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.6)] transition-transform duration-300 '>
                 <div className='rounded-t-xl flex justify-center items-center'>
                   <img src={g.img} alt={g.name} className='rounded-t-xl h-full w-full' />
                 </div>
@@ -56,7 +56,7 @@ const Project = () => {
                   <p>{g.about}</p>
                 </div>
                 <div className='flex items-end justify-center'>
-                  <div className='btn bg-orange-500 text-white text-lg px-6 py-1 rounded-xl hover:opacity-60'><a href={g.link} target="_blank">View</a></div>
+                  <div className='btn bg-black text-white text-lg px-6 py-1 rounded-xl hover:opacity-60  hover:bg-orange-500'><a href={g.link} target="_blank">Source</a></div>
                 </div>
               </div>
             ))}
