@@ -8,7 +8,7 @@ const Contact = () => {
     <>
     <Navbar/>
       <div className="w-full h-screen flex flex-col justify-center items-center pfbg ">
-        <h2 className="text-3xl font-bold mb-6 items-start navtext">Contact Me :</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center navtext">Contact Me :</h2>
         <div className="w-[90%] max-w-4xl h-1/2 flex flex-col md:flex-row gap-10 justify-around items-center">
         <div className="flex flex-col items-center">
         <a href="https://www.linkedin.com/in/harissh-k-s-053a16274/" target="_blank">    
@@ -29,7 +29,6 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-center">
           <a href="tel:+919790730924" class="phone-link">
-
           <Phone
               size={60}
               className="text-black hover:text-white transition duration-300"
